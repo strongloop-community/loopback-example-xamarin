@@ -1,0 +1,23 @@
+{
+  "name": "user",
+  "plural": "users",
+  "base": "User",
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "TodoTask": {
+      "type": "hasMany",
+      "model": "TodoTask",
+      "foreignKey": "userId"
+    }
+  },
+  "acls": [
+    {
+      "permission": "ALLOW",
+      "principalType": "ROLE",
+      "principalId": "$owner"
+    }
+  ],
+  "methods": []
+}
+

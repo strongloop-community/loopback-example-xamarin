@@ -1,0 +1,42 @@
+{
+  "name": "TodoTask",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "isDone": {
+      "type": "boolean",
+      "required": true
+    },
+    "isFavorite": {
+      "type": "boolean",
+      "required": true
+    },
+    "isDeleted": {
+      "type": "boolean",
+      "required": true
+    },
+    "category": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "permission": "DENY",
+      "principalType": "ROLE",
+      "principalId": "$everyone"
+    }
+  ],
+  "methods": []
+}

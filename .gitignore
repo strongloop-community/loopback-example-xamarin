@@ -1,0 +1,6 @@
+Server/node_modules/
+bin/
+obj/
+*.userprefs
+.fuse_hidden*
+*.suo
