@@ -17,7 +17,7 @@ namespace TodoApp
 				password = password
 			};
 			try{
-				var accessToken = (AccessToken)await Users.login (user);
+				AccessToken accessToken = await Users.login (user);
 				Gateway.SetAccessToken(accessToken);
 				SessionData.Register<AccessToken>(accessToken);
 			}catch(RestException ex){
