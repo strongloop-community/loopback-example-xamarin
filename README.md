@@ -25,6 +25,6 @@ This repository contains a mobile app demonstrating the usage of the Loopback Xa
 ### Links ###
 
 * [Loopback](http://loopback.io)
-* [SDK Repository](https://bitbucket.org/perfectedtech/lbxamarinsdk-generator)
+* [SDK Repository](https://github.com/strongloop/loopback-sdk-xamarin)
 * [Perfected Tech](http://perfectedtech.com)
 * [Xamarin Studio](http://xamarin.com)
