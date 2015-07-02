@@ -27,7 +27,7 @@ namespace LBXamarinSDK
 	// Gateway: Communication with Server API
 	public class Gateway
     {
-        private static Uri BASE_URL = new Uri("http://10.0.0.14:3000/api/");
+        private static Uri BASE_URL = new Uri("http://127.0.0.1:3000/api/");
 		private static RestClient _client = new RestClient {BaseUrl = BASE_URL};
         private static string _accessToken = null;
 		private static bool _debugMode = false;
