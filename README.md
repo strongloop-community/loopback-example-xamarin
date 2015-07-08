@@ -1,11 +1,9 @@
 # LoopBack Xamarin SDK example application 
 
-This repository contains a mobile app that demonstrates the Loopback Xamarin SDK.
+This repository contains a mobile app that demonstrates the Loopback Xamarin SDK.  It contains:
 
-### What's in this repository? ###
-
-* Server folder: Loopback server for the app.
-* Client Folder: The ToDo app, created in Xamarin Studio with Xamarin Forms for iOS.
+* `Server` directory: Loopback server for the app.
+* `Client` directory: The ToDo client app, created in Xamarin Studio with Xamarin Forms for iOS.
 
 ###  Run the server app
 
@@ -16,9 +14,9 @@ You can either run the LoopBack server app yourself, or connect to the demo app 
 1. Go to server folder: 
   ```$ cd server```
 1. Install dependencies:
-  ```npm install```
+  ```$ npm install```
 1.  Run the application:
-  ```node .```
+  ```$ node .```
 
 **To use StrongLoop's server app**
 
@@ -28,10 +26,9 @@ Edit [LBXamarinSDK.cs](https://github.com/strongloop/loopback-example-xamarin/bl
 
 ### Compile and run the client app
 
-        Go to Client/ToDo App folder.
-        Open TodoApp.sln project in Xamarin Studio.
-        Change the API url setting line in the code to your local address. (Gateway.SetServerBaseURL())
-        Compile and run.
+1. Go to `Client/ToDo App` folder.
+1. Open `TodoApp.sln` project in Xamarin Studio.
+1. Compile and run.
 
 ### Links ###
 
