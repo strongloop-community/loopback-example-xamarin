@@ -1,6 +1,6 @@
-# ToDoApp README #
+# LoopBack Xamarin SDK example application 
 
-This repository contains a mobile app demonstrating the usage of the Loopback Xamarin SDK.
+This repository contains a mobile app that demonstrates the Loopback Xamarin SDK.
 
 ### What's in this repository? ###
 
@@ -12,8 +12,10 @@ This repository contains a mobile app demonstrating the usage of the Loopback Xa
 * Run the server
 
         Go to server folder.
-        Run "npm install" in shell.
-        Run "slc run" in shell.
+        Run `npm install` in shell.
+        Run `node .` in shell.
+
+**NOTE**:  If you don't want to install Node.js and StrongLoop, you can run the Xamarin client app against http://xamarindemo.strongloop.com.
 
 * Compile and run the App
 
