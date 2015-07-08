@@ -5,6 +5,10 @@ This repository contains a mobile app that demonstrates the Loopback Xamarin SDK
 * `Server` directory: Loopback server for the app.
 * `Client` directory: The ToDo client app, created in Xamarin Studio with Xamarin Forms for iOS.
 
+## Prerequisites
+
+Install Xamarin Studio.
+
 ###  Run the server app
 
 You can either run the LoopBack server app yourself, or connect to the demo app running at http://xamarindemo.strongloop.com.
