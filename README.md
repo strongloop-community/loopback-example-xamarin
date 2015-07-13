@@ -2,20 +2,26 @@
 
 This repository contains a mobile app that demonstrates the Loopback Xamarin SDK.  It contains:
 
-* `Server` directory: Loopback server for the app.
+* `Server` directory: Loopback server application.
 * `Client` directory: The ToDo client app, created in Xamarin Studio with Xamarin Forms for iOS.
 
 ## Prerequisites
 
-- Install [Xamarin Studio](http://xamarin.com/studio).
+- Install [Xamarin Studio](http://xamarin.com/studio).  Note: You must get the full Studio (trial) license, not just the "starter" license.
 - Install [LoopBack](http://loopback.io/)
 - Install [the LoopBack Xamarin SDK](https://github.com/strongloop/loopback-sdk-xamarin)
 
-###  Run the server app
+## Download
+
+```
+$ git clone https://github.com/strongloop/loopback-example-xamarin.git
+```
+
+##  Run the server app
 
 You can either run the LoopBack server app yourself, or connect to the demo app running at http://xamarindemo.strongloop.com.
 
-**To run your own server app**:
+### Run your own server app
 
 1. Go to server folder: 
   ```$ cd server```
@@ -24,21 +30,35 @@ You can either run the LoopBack server app yourself, or connect to the demo app 
 1.  Run the application:
   ```$ node .```
 
-**To use StrongLoop's server app**
+### Use StrongLoop's server app
 
 Alternatively, you can run the Xamarin client app against http://xamarindemo.strongloop.com.
 
 Edit [LBXamarinSDK.cs](https://github.com/strongloop/loopback-example-xamarin/blob/master/Client/Todo%20App/TodoApp/TodoApp/LBXamarinSDK.cs) and change BASE_URL to `http://xamarindemo.strongloop.com/api`.
 
-### Compile and run the client app
+## Run the client app
 
-1. Go to `Client/ToDo App` folder.
-1. Open `TodoApp.sln` project in Xamarin Studio.
-1. Compile and run.
+Open the client app solution with Xamarin Studio: `loopback-example-xamarin/Client/Todo App/TodoApp.sln`.
 
-### Links ###
+In Xamarin Studio, build and run the app:
 
-* [Loopback](http://loopback.io)
-* [SDK Repository](https://github.com/strongloop/loopback-sdk-xamarin)
+The iOS Simulartor will appear running the client app.  It may take a moment or two.
+
+In the iOS Simulator:
+
+2. The first time you run the app, click **Sign Up**:
+   - Enter an email address and password (they are not validated).
+   - Click **Sign Up**
+   - If you already signed up in this session, click **Login** with the credentials you entered previously.
+3. Enter a "To Do" item:
+   - Click **+**
+   - Click **Add a task + **
+   - Enter a description of the task in the top (red) text field
+   - Change the date, time, category and mark as a favorite if you wish.
+   - Click **Create** to add the item.
+
+
+### Links 
+
 * [Perfected Tech](http://perfectedtech.com)
 * [Xamarin Studio](http://xamarin.com)
