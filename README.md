@@ -42,23 +42,32 @@ Open the client app solution with Xamarin Studio: `loopback-example-xamarin/Clie
 
 In Xamarin Studio, build and run the app:
 
-The iOS Simulartor will appear running the client app.  It may take a moment or two.
+![Xamarin demo - build app](https://raw.githubusercontent.com/strongloop/loopback-example-xamarin/master/images/xamarin-build-app.png)
+
+The iOS Simulator will appear running the client app.  It may take a moment or two.
+
+![Xamarin demo app login](https://raw.githubusercontent.com/strongloop/loopback-example-xamarin/master/images/xamarin-login.png)
 
 In the iOS Simulator:
 
 2. The first time you run the app, click **Sign Up**:
    - Enter an email address and password (they are not validated).
    - Click **Sign Up**
-   - If you already signed up in this session, click **Login** with the credentials you entered previously.
-3. Enter a "To Do" item:
+   - If you already signed up in this session, click **Login** with the credentials you entered previously.  
+3. You'll see the app home page: <br/>
+![Xamarin demo app home page](https://raw.githubusercontent.com/strongloop/loopback-example-xamarin/master/images/xamarin-todo-app.png)
+3. Enter a "To Do" item: <br/>
+![Xamarin demo - adding a To Do item](https://raw.githubusercontent.com/strongloop/loopback-example-xamarin/master/images/xamarin-add-todo-item.png)
    - Click **+**
    - Click **Add a task + **
    - Enter a description of the task in the top (red) text field
    - Change the date, time, category and mark as a favorite if you wish.
    - Click **Create** to add the item.
 
+![Xamarin demo app - To Do item added](https://raw.githubusercontent.com/strongloop/loopback-example-xamarin/master/images/xamarin-todo-added.png)
 
 ### Links 
 
+* [LoopBack](http://loopback.io)
 * [Perfected Tech](http://perfectedtech.com)
 * [Xamarin Studio](http://xamarin.com)
