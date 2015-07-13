@@ -7,7 +7,8 @@ This repository contains a mobile app that demonstrates the Loopback Xamarin SDK
 
 ## Prerequisites
 
-- Install [Xamarin Studio](http://xamarin.com/studio).  Note: You must get the full Studio (trial) license, not just the "starter" license.
+- Install [Xamarin Studio](http://xamarin.com/studio).  **NOTE**: You must get the full Studio (trial) license, not just the "starter" license.
+- Install [Xamarin Forms](http://xamarin.com/forms)
 - Install [LoopBack](http://loopback.io/)
 - Install [the LoopBack Xamarin SDK](https://github.com/strongloop/loopback-sdk-xamarin)
 
