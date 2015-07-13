@@ -7,7 +7,9 @@ This repository contains a mobile app that demonstrates the Loopback Xamarin SDK
 
 ## Prerequisites
 
-Install Xamarin Studio.
+- Install [Xamarin Studio](http://xamarin.com/studio).
+- Install [LoopBack](http://loopback.io/)
+- Install [the LoopBack Xamarin SDK](https://github.com/strongloop/loopback-sdk-xamarin)
 
 ###  Run the server app
 
