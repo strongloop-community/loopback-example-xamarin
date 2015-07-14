@@ -33,7 +33,7 @@
   "relations": {},
   "acls": [
     {
-      "permission": "DENY",
+      "permission": "ALLOW",
       "principalType": "ROLE",
       "principalId": "$everyone"
     }
