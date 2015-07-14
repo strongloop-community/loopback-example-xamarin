@@ -65,7 +65,10 @@ In the iOS Simulator:
    - Change the date, time, category and mark as a favorite if you wish.
    - Click **Create** to add the item.
 
+You'll see the item appear in the "To Do" list.
 ![Xamarin demo app - To Do item added](https://raw.githubusercontent.com/strongloop/loopback-example-xamarin/master/images/xamarin-todo-added.png)
+
+You can confirm that the data is also added to the LoopBack model using LoopBack API Explorer; for example, if you're running the backend locally - http://localhost:3000/explorer/#!/TodoTasks/find.
 
 ### Links 
 
