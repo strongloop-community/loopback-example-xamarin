@@ -74,3 +74,7 @@ You can confirm that the data is also added to the LoopBack model using LoopBack
 * [LoopBack](http://loopback.io)
 * [Perfected Tech](http://perfectedtech.com)
 * [Xamarin Studio](http://xamarin.com)
+
+---
+
+[More LoopBack examples](https://github.com/strongloop/loopback-example)
